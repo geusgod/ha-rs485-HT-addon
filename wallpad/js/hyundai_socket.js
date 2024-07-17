@@ -61,36 +61,36 @@ const CONST = {
   // https://www.home-assistant.io/docs/mqtt/discovery/
   // http://mqtt-explorer.com
   DEVICE_CONFIG: {
-    'light/homenet/panel1-1': { name: 'livingroom_light1', unique_id: 'light-homenet-panel1-1', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel1-2': { name: 'livingroom_light2', unique_id: 'light-homenet-panel1-2', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel1-3': { name: 'livingroom_light3', unique_id: 'light-homenet-panel1-3', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel1-4': { name: 'livingroom_light4', unique_id: 'light-homenet-panel1-4', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel1-5': { name: 'livingroom_light5', unique_id: 'light-homenet-panel1-5', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel2-1': { name: 'room1_light1', unique_id: 'light-homenet-panel2-1', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel2-2': { name: 'room1_light2', unique_id: 'light-homenet-panel2-2', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel3-1': { name: 'room2_light1', unique_id: 'light-homenet-panel3-1', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel3-2': { name: 'room2_light2', unique_id: 'light-homenet-panel3-2', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel4-1': { name: 'room3_light1', unique_id: 'light-homenet-panel4-1', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel4-2': { name: 'room3_light2', unique_id: 'light-homenet-panel4-2', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel5-1': { name: 'kichen_light1', unique_id: 'light-homenet-panel5-1', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel5-2': { name: 'kichen_light2', unique_id: 'light-homenet-panel5-2', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'light/homenet/panel5-3': { name: 'kichen_light3', unique_id: 'light-homenet-panel5-3', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel1-1': { name: 'ew11_livingroom_light1', unique_id: 'light-homenet-panel1-1', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel1-2': { name: 'ew11_livingroom_light2', unique_id: 'light-homenet-panel1-2', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel1-3': { name: 'ew11_livingroom_light3', unique_id: 'light-homenet-panel1-3', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel1-4': { name: 'ew11_livingroom_light4', unique_id: 'light-homenet-panel1-4', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel1-5': { name: 'ew11_livingroom_light5', unique_id: 'light-homenet-panel1-5', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel2-1': { name: 'ew11_room1_light1', unique_id: 'light-homenet-panel2-1', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel2-2': { name: 'ew11_room1_light2', unique_id: 'light-homenet-panel2-2', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel3-1': { name: 'ew11_room2_light1', unique_id: 'light-homenet-panel3-1', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel3-2': { name: 'ew11_room2_light2', unique_id: 'light-homenet-panel3-2', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel4-1': { name: 'ew11_room3_light1', unique_id: 'light-homenet-panel4-1', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel4-2': { name: 'ew11_room3_light2', unique_id: 'light-homenet-panel4-2', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel5-1': { name: 'ew11_kichen_light1', unique_id: 'light-homenet-panel5-1', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel5-2': { name: 'ew11_kichen_light2', unique_id: 'light-homenet-panel5-2', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'light/homenet/panel5-3': { name: 'ew11_kichen_light3', unique_id: 'light-homenet-panel5-3', state_topic: '~/power/state', command_topic: '~/power/command' },
         
-    'fan/homenet/panel1': { name: '환풍기', unique_id: 'fan-homenet-panel1', state_topic: '~/power/state', command_topic: '~/power/command', speed_state_topic: '~/speed/state', speed_command_topic: '~/speed/command', speeds:['low', 'medium', 'high'] },
+    'fan/homenet/panel1': { name: 'ew11_환풍기', unique_id: 'fan-homenet-panel1', state_topic: '~/power/state', command_topic: '~/power/command', speed_state_topic: '~/speed/state', speed_command_topic: '~/speed/command', speeds:['low', 'medium', 'high'] },
     
-    'switch/homenet/elevator': { name: 'elevator', unique_id: 'switch-homenet-elevator', state_topic: '~/power/state', command_topic: '~/power/command' },
-    'sensor/homenet/elevator-state': { name: 'elevator-state', unique_id: 'sensor-homenet-elevator-state', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'switch/homenet/elevator': { name: 'ew11_elevator', unique_id: 'switch-homenet-elevator', state_topic: '~/power/state', command_topic: '~/power/command' },
+    'sensor/homenet/elevator-state': { name: 'ew11_elevator-state', unique_id: 'sensor-homenet-elevator-state', state_topic: '~/power/state', command_topic: '~/power/command' },
     
-    'switch/homenet/breaker1': { name: '주방가스차단', unique_id: 'switch-homenet-breaker1', state_topic: '~/gas/state', command_topic: '~/gas/command' },
-    'switch/homenet/breaker2-1': { name: '외출-조명', unique_id: 'switch-homenet-breaker2-1', state_topic: '~/light/state', command_topic: '~/light/command' },
-    'switch/homenet/breaker2-2': { name: '외출-가스', unique_id: 'switch-homenet-breaker2-2', state_topic: '~/gas/state', command_topic: '~/gas/command' },
+    'switch/homenet/breaker1': { name: 'ew11_주방가스차단', unique_id: 'switch-homenet-breaker1', state_topic: '~/gas/state', command_topic: '~/gas/command' },
+    'switch/homenet/breaker2-1': { name: 'ew11_외출-조명', unique_id: 'switch-homenet-breaker2-1', state_topic: '~/light/state', command_topic: '~/light/command' },
+    'switch/homenet/breaker2-2': { name: 'ew11_외출-가스', unique_id: 'switch-homenet-breaker2-2', state_topic: '~/gas/state', command_topic: '~/gas/command' },
 
-    'climate/homenet/heater1-1': { name: 'livingroom', unique_id: 'climate-homenet-heater1-1', modes: ['off','heat_cool','heat'], action_topic: '~/action/state', current_temperature_topic: '~/current_temperature/state', mode_state_topic: '~/mode/state', mode_command_topic: '~/mode/command', temperature_state_topic: '~/temperature/state', temperature_command_topic: '~/temperature/command', precision: 1.0 },
-    'climate/homenet/heater1-2': { name: 'bedroom', unique_id: 'climate-homenet-heater1-2', modes: ['off','heat_cool','heat'], action_topic: '~/action/state', current_temperature_topic: '~/current_temperature/state', mode_state_topic: '~/mode/state', mode_command_topic: '~/mode/command', temperature_state_topic: '~/temperature/state', temperature_command_topic: '~/temperature/command', precision: 1.0 },
-    'climate/homenet/heater1-3': { name: 'roomA', unique_id: 'climate-homenet-heater1-3', modes: ['off','heat_cool','heat'], action_topic: '~/action/state', current_temperature_topic: '~/current_temperature/state', mode_state_topic: '~/mode/state', mode_command_topic: '~/mode/command', temperature_state_topic: '~/temperature/state', temperature_command_topic: '~/temperature/command', precision: 1.0 },
-    'climate/homenet/heater1-4': { name: 'roomB', unique_id: 'climate-homenet-heater1-4', modes: ['off','heat_cool','heat'], action_topic: '~/action/state', current_temperature_topic: '~/current_temperature/state', mode_state_topic: '~/mode/state', mode_command_topic: '~/mode/command', temperature_state_topic: '~/temperature/state', temperature_command_topic: '~/temperature/command', precision: 1.0 },
+    'climate/homenet/heater1-1': { name: 'ew11_livingroom', unique_id: 'climate-homenet-heater1-1', modes: ['off','heat_cool','heat'], action_topic: '~/action/state', current_temperature_topic: '~/current_temperature/state', mode_state_topic: '~/mode/state', mode_command_topic: '~/mode/command', temperature_state_topic: '~/temperature/state', temperature_command_topic: '~/temperature/command', precision: 1.0 },
+    'climate/homenet/heater1-2': { name: 'ew11_bedroom', unique_id: 'climate-homenet-heater1-2', modes: ['off','heat_cool','heat'], action_topic: '~/action/state', current_temperature_topic: '~/current_temperature/state', mode_state_topic: '~/mode/state', mode_command_topic: '~/mode/command', temperature_state_topic: '~/temperature/state', temperature_command_topic: '~/temperature/command', precision: 1.0 },
+    'climate/homenet/heater1-3': { name: 'ew11_roomA', unique_id: 'climate-homenet-heater1-3', modes: ['off','heat_cool','heat'], action_topic: '~/action/state', current_temperature_topic: '~/current_temperature/state', mode_state_topic: '~/mode/state', mode_command_topic: '~/mode/command', temperature_state_topic: '~/temperature/state', temperature_command_topic: '~/temperature/command', precision: 1.0 },
+    'climate/homenet/heater1-4': { name: 'ew11_roomB', unique_id: 'climate-homenet-heater1-4', modes: ['off','heat_cool','heat'], action_topic: '~/action/state', current_temperature_topic: '~/current_temperature/state', mode_state_topic: '~/mode/state', mode_command_topic: '~/mode/command', temperature_state_topic: '~/temperature/state', temperature_command_topic: '~/temperature/command', precision: 1.0 },
 
-    'binary_sensor/homenet/wallpad': { name: '월패드', unique_id: 'binary_sensor-homenet-wallpad', device_class: 'connectivity', state_topic: '~/connectivity/state' }
+    'binary_sensor/homenet/wallpad': { name: 'ew11_월패드', unique_id: 'binary_sensor-homenet-wallpad', device_class: 'connectivity', state_topic: '~/connectivity/state' }
   },
 
   // 기기별 상태 및 제어 코드(HEX)
