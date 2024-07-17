@@ -8,8 +8,6 @@
 커스텀파일 설정이 가능해서 본인이 사용하는 nodejs 파일이 있다면 교체해서 쓰시면 됩니다.
 [네이버 Homeassistant 카페](https://cafe.naver.com/koreassistant)
 
-## Version : 0.8.7
-
 ## Installation
 
 1. 홈어시스턴트의 Hass.io > ADD-ON STORE에서 Add new repository by URL에 https://github.com/HAKorea/addons 를 입력한 다음 ADD 버튼을 누릅니다.
