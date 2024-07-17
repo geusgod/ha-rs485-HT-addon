@@ -477,25 +477,25 @@ const CONST = {
 
   DEVICE_SCHEDULED_REQUEST: [
 
-    //{ category: 'light/homenet/panel1-1', requestHex: 'f7 0b 01 19 01 40 11 00 00 b4 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
-    //{ category: 'light/homenet/panel1-2', requestHex: 'f7 0b 01 19 01 40 12 00 00 b7 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
-    //{ category: 'light/homenet/panel1-3', requestHex: 'f7 0b 01 19 01 40 13 00 00 b6 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
-    //{ category: 'light/homenet/panel5-1', requestHex: 'f7 0b 01 19 01 40 51 00 00 f4 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
-    //{ category: 'light/homenet/panel5-2', requestHex: 'f7 0b 01 19 01 40 52 00 00 f7 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
-    //{ category: 'light/homenet/panel5-3', requestHex: 'f7 0b 01 19 01 40 53 00 00 f6 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
+    { category: 'light/homenet/panel1-1', requestHex: 'f7 0b 01 19 01 40 11 00 00 b4 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
+    { category: 'light/homenet/panel1-2', requestHex: 'f7 0b 01 19 01 40 12 00 00 b7 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
+    { category: 'light/homenet/panel1-3', requestHex: 'f7 0b 01 19 01 40 13 00 00 b6 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
+    { category: 'light/homenet/panel5-1', requestHex: 'f7 0b 01 19 01 40 51 00 00 f4 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
+    { category: 'light/homenet/panel5-2', requestHex: 'f7 0b 01 19 01 40 52 00 00 f7 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
+    { category: 'light/homenet/panel5-3', requestHex: 'f7 0b 01 19 01 40 53 00 00 f6 ee'.toBuffer(), lastActivity: new Date().getTime() + 1000, lastDelegateActivity: new Date().getTime() + 1000 },
 
-    //{ category: 'fan/homenet/panel1',   requestHex: 'f7 0b 01 2b 01 40 10 00 00 87'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
-    //{ category: 'fan/homenet/panel2',   requestHex: 'f7 0b 01 2b 01 40 20 00 00 87'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
-    //{ category: 'fan/homenet/panel3',   requestHex: 'f7 0b 01 2b 01 40 30 00 00 87'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
+    { category: 'fan/homenet/panel1',   requestHex: 'f7 0b 01 2b 01 40 10 00 00 87'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
+    { category: 'fan/homenet/panel2',   requestHex: 'f7 0b 01 2b 01 40 20 00 00 87'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
+    { category: 'fan/homenet/panel3',   requestHex: 'f7 0b 01 2b 01 40 30 00 00 87'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
 
-    //{ category: 'switch/homenet/breaker1',   requestHex: 'f7 0b 01 1b 01 43 10 00 00 b4'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
-    //{ category: 'switch/homenet/breaker2-1', requestHex: 'f7 0c 01 2a 01 40 11 00 19 00 99'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
-    //{ category: 'switch/homenet/breaker2-2', requestHex: 'f7 0c 01 2a 01 43 11 00 1b 00 98'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
+    { category: 'switch/homenet/breaker1',   requestHex: 'f7 0b 01 1b 01 43 10 00 00 b4'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
+    { category: 'switch/homenet/breaker2-1', requestHex: 'f7 0c 01 2a 01 40 11 00 19 00 99'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
+    { category: 'switch/homenet/breaker2-2', requestHex: 'f7 0c 01 2a 01 43 11 00 1b 00 98'.toBuffer(), lastActivity: new Date().getTime()+10000, lastDelegateActivity: new Date().getTime()+10000 },
 
-    //{ category: 'climate/homenet/heater1-1', requestHex: 'f7 0b 01 18 01 46 11 00 00 b2'.toBuffer(), lastActivity: new Date().getTime()+1000, lastDelegateActivity: new Date().getTime()+1000 },
-    //{ category: 'climate/homenet/heater1-2', requestHex: 'f7 0b 01 18 01 46 12 00 00 b3'.toBuffer(), lastActivity: new Date().getTime()+1000, lastDelegateActivity: new Date().getTime()+1000 },
-    //{ category: 'climate/homenet/heater1-3', requestHex: 'f7 0b 01 18 01 46 13 00 00 b4'.toBuffer(), lastActivity: new Date().getTime()+1000, lastDelegateActivity: new Date().getTime()+1000 },
-    //{ category: 'climate/homenet/heater1-4', requestHex: 'f7 0b 01 18 01 46 14 00 00 b5'.toBuffer(), lastActivity: new Date().getTime()+1000, lastDelegateActivity: new Date().getTime()+1000 }
+    { category: 'climate/homenet/heater1-1', requestHex: 'f7 0b 01 18 01 46 11 00 00 b2'.toBuffer(), lastActivity: new Date().getTime()+1000, lastDelegateActivity: new Date().getTime()+1000 },
+    { category: 'climate/homenet/heater1-2', requestHex: 'f7 0b 01 18 01 46 12 00 00 b3'.toBuffer(), lastActivity: new Date().getTime()+1000, lastDelegateActivity: new Date().getTime()+1000 },
+    { category: 'climate/homenet/heater1-3', requestHex: 'f7 0b 01 18 01 46 13 00 00 b4'.toBuffer(), lastActivity: new Date().getTime()+1000, lastDelegateActivity: new Date().getTime()+1000 },
+    { category: 'climate/homenet/heater1-4', requestHex: 'f7 0b 01 18 01 46 14 00 00 b5'.toBuffer(), lastActivity: new Date().getTime()+1000, lastDelegateActivity: new Date().getTime()+1000 }
 
 
   ],
