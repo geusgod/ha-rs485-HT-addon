@@ -12,13 +12,13 @@ if [ -f $SHARE_DIR/$CUSTOM_FILE ]; then
 	echo "[Info] Initializing with Custom file: "$CUSTOM_FILE
 	JS_FILE=$CUSTOM_FILE
 else
-  	if [ ! -f $SHARE_DIR/$JS_FILE ]; then
-		LS_RESULT=`ls $SHARE_DIR | grep wallpad`
-		if [ $? -eq 0 ]; then
-			rm $SHARE_DIR/*wallpad.js
-		fi
+  	# if [ ! -f $SHARE_DIR/$JS_FILE ]; then
+	# 	LS_RESULT=`ls $SHARE_DIR | grep wallpad`
+	# 	if [ $? -eq 0 ]; then
+	# 		rm $SHARE_DIR/*wallpad.js
+	# 	fi
         cp -f /js/$MODEL"_"$TYPE".js" $SHARE_DIR/$JS_FILE
-	fi
+	# fi
 fi
 
 # start server
